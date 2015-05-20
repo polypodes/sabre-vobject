@@ -162,11 +162,12 @@ class Recur extends Property {
      */
     public function getJsonValue() {
 
-        $values = array();
+        $values = "";
         foreach($this->getParts() as $k=>$v) {
-            $values[strtolower($k)] = $v;
+            $values .= $k."=".$v.";";
         }
-        return array($values);
+
+        return array(substr($values,0,-1));
 
     }
 
