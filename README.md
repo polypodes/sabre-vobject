@@ -6,6 +6,12 @@ and [vCard](https://tools.ietf.org/html/rfc6350) objects using PHP.
 
 The goal of the VObject library is to create a very complete library, with an easy to use API.
 
+
+WIP
+---
+
+Elastic Search related commits
+
 Build status
 ------------
 
